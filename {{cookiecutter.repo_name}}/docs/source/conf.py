@@ -59,7 +59,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = '{{cookiecutter.package_name}}'
-copyright = '<year>, <authors>'
+copyright = '{{cookiecutter.year}}, {{cookiecutter.authors}}'
 author = '<authors>'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -165,7 +165,7 @@ htmlhelp_basename = '{{cookiecutter.package_name}}doc'
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, '{{cookiecutter.package_name}}.tex', '{{cookiecutter.package_name}} Documentation',
-     '<authors>', 'manual'),
+     '{{cookiecutter.authors}}', 'manual'),
 ]
 
 
@@ -191,6 +191,7 @@ texinfo_documents = [
 ]
 
 # mock modules that Sphinx needs to complete the build. You can see on readthedocs what packages are needed if the build fails. This will differ per project
+# you definitely won't need the ones listed below!
 MOCK_MODULES = ['pycortex', 'nitime', 'nitime.timeseries', 'nitime.analysis', 'prfpy', 'prfpy.fit', 'prfpy.model', 'seaborn', 'yaml']
 
 for mod_name in MOCK_MODULES:
