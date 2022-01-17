@@ -3,6 +3,6 @@
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "package_name": "src",
     "description": "Template for projects at the Spinoza Centre for Neuroimaging",
-    "author": "`whoami`",
+    "author": "[spinoza user account]",
     "email": "{{cookiecutter.author}}@spinozacentre.nl"
 }
