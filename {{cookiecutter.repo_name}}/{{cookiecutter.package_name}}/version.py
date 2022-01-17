@@ -27,7 +27,7 @@ CLASSIFIERS = ["Development Status :: 3 - Alpha",
                "Topic :: Scientific/Engineering"]
 
 # Description should be a one-liner:
-description = "{{cookiecutter.package_name}}: [some description]"
+description = "{{cookiecutter.package_name}}: {{cookiecutter.description}}"
 # Long description will go up on the pypi page
 long_description = """
 
@@ -52,15 +52,15 @@ Spinoza Centre for Neuroimaging, Amsterdam.
 """
 
 NAME = "{{cookiecutter.package_name}}"
-MAINTAINER = "<author>"
-MAINTAINER_EMAIL = "<email>"
+MAINTAINER = "{{cookiecutter.author}}"
+MAINTAINER_EMAIL = "{{cookiecutter.email}}"
 DESCRIPTION = description
 LONG_DESCRIPTION = long_description
 URL = "URL"
 DOWNLOAD_URL = ""
 LICENSE = "GPL3"
-AUTHOR = "<author>"
-AUTHOR_EMAIL = "<email>"
+AUTHOR = "{{cookiecutter.author}}"
+AUTHOR_EMAIL = "{{cookiecutter.email}}"
 PLATFORMS = "OS Independent"
 MAJOR = _version_major
 MINOR = _version_minor

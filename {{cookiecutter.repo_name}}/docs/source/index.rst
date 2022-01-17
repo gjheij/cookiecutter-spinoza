@@ -1,6 +1,6 @@
 .. include:: links.rst
 
-Welcome to the linescanning repository
+Welcome to the {{cookiecutter.project_name}} project
 ===========================================
 
 .. image:: ../imgs/overview.png
