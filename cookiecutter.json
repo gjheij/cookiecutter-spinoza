@@ -4,5 +4,6 @@
     "package_name": "src",
     "description": "Template for projects at the Spinoza Centre for Neuroimaging",
     "author": "[spinoza user account]",
-    "email": "{{cookiecutter.author}}@spinozacentre.nl"
+    "email": "{{cookiecutter.author}}@spinozacentre.nl",
+    "year": "2022"
 }
