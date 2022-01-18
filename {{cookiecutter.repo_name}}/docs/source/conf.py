@@ -187,7 +187,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, '{{cookiecutter.package_name}}', '{{cookiecutter.package_name}} Documentation',
-     author, '{{cookiecutter.package_name}}', 'One line description of project.',
+     author, '{{cookiecutter.package_name}}', '{{cookiecutter.description}}',
      'Miscellaneous'),
 ]
 
