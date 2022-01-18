@@ -21,7 +21,7 @@ __version__ = '.'.join(map(str, _ver))
 CLASSIFIERS = ["Development Status :: 3 - Alpha",
                "Environment :: Console",
                "Intended Audience :: Science/Research",
-               "License :: OSI Approved :: GPL-v3 License",
+               "License :: OSI Approved :: MIT",
                "Operating System :: OS Independent",
                "Programming Language :: Python",
                "Topic :: Scientific/Engineering"]
@@ -41,7 +41,7 @@ repository README_.
 
 License
 =======
-``{{cookiecutter.repo_name}}`` is licensed under the terms of the GPL-v3 license. See the file
+``{{cookiecutter.repo_name}}`` is licensed under the terms of the MIT license. See the file
 "LICENSE" for information on the history of this software, terms & conditions
 for usage, and a DISCLAIMER OF ALL WARRANTIES.
 
@@ -58,7 +58,7 @@ DESCRIPTION = description
 LONG_DESCRIPTION = long_description
 URL = "URL"
 DOWNLOAD_URL = ""
-LICENSE = "GPL3"
+LICENSE = "MIT"
 AUTHOR = "{{cookiecutter.author}}"
 AUTHOR_EMAIL = "{{cookiecutter.email}}"
 PLATFORMS = "OS Independent"
