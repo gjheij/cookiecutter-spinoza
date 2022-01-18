@@ -59,7 +59,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = '{{cookiecutter.package_name}}'
-copyright = '{{cookiecutter.year}}, {{cookiecutter.authors}}'
+copyright = '{{cookiecutter.year}}, {{cookiecutter.author}}'
 author = '<authors>'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -165,7 +165,7 @@ htmlhelp_basename = '{{cookiecutter.package_name}}doc'
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, '{{cookiecutter.package_name}}.tex', '{{cookiecutter.package_name}} Documentation',
-     '{{cookiecutter.authors}}', 'manual'),
+     '{{cookiecutter.author}}', 'manual'),
 ]
 
 
