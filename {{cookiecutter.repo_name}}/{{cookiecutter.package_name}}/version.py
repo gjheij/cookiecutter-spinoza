@@ -47,7 +47,7 @@ for usage, and a DISCLAIMER OF ALL WARRANTIES.
 
 All trademarks referenced herein are property of their respective holders.
 
-Copyright (c) {{cookiecutter.year}}--, {{cookiecutter.author}},
+Copyright (c) {% now 'utc', '%Y' %}--, {{cookiecutter.author}},
 Spinoza Centre for Neuroimaging, Amsterdam.
 """
 

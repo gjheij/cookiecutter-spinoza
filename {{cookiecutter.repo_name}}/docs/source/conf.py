@@ -59,8 +59,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = '{{cookiecutter.package_name}}'
-copyright = '{{cookiecutter.year}}, {{cookiecutter.author}}'
-author = '<authors>'
+copyright = "{% now 'utc', '%Y' %}, {{cookiecutter.author}}"
+author = '{{cookiecutter.author}}'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

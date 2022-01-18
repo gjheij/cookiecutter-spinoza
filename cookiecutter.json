@@ -3,7 +3,6 @@
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "package_name": "src",
     "description": "Template for projects at the Spinoza Centre for Neuroimaging",
-    "author": "[spinoza user account]",
-    "email": "{{cookiecutter.author}}@spinozacentre.nl",
-    "year": "2022"
+    "author": "author name",
+    "email": "{{cookiecutter.author[0].lower()cookiecutter.author.split(' ')[-1].lower()}}@spinozacentre.nl"
 }
