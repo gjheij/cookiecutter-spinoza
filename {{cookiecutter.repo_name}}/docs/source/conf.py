@@ -20,6 +20,8 @@
 import mock
 import os
 import sys
+import datetime
+
 sys.path.insert(0, os.path.abspath('../'))
 
 # seems to be required if you have pycortex in your repo
@@ -59,7 +61,6 @@ master_doc = 'index'
 
 # General information about the project.
 project = '{{cookiecutter.package_name}}'
-copyright = "{% now 'local', '%Y' %}, {{cookiecutter.author}}"
 author = '{{cookiecutter.author}}'
 
 # The version info for the project you're documenting, acts as replacement for
